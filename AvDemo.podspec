@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "AvDemo"
-s.version      = "0.0.1"
+s.version      = "0.0.5"
 s.license      = 'MIT'
 s.summary      = "An iOS activity indicator view."
 s.description  = <<-DESC
