@@ -2,6 +2,7 @@ Pod::Spec.new do |s|
 
 s.name         = "AvDemo"
 s.version      = "0.0.1"
+s.license      = 'MIT'
 s.summary      = "An iOS activity indicator view."
 s.description  = <<-DESC
 AvDemo is an iOS drop-in class that displays a translucent AvDemo
