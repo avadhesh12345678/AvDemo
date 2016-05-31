@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		AFAC767B1CFDFA0C0067C025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAC767A1CFDFA0C0067C025 /* main.m */; };
-		AFAC767E1CFDFA0C0067C025 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAC767D1CFDFA0C0067C025 /* AppDelegate.m */; };
-		AFAC76811CFDFA0C0067C025 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAC76801CFDFA0C0067C025 /* ViewController.m */; };
 		AFAC76841CFDFA0C0067C025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAC76821CFDFA0C0067C025 /* Main.storyboard */; };
 		AFAC76861CFDFA0C0067C025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAC76851CFDFA0C0067C025 /* Assets.xcassets */; };
 		AFAC76891CFDFA0C0067C025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAC76871CFDFA0C0067C025 /* LaunchScreen.storyboard */; };
 		AFAC76941CFDFA0C0067C025 /* AvDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAC76931CFDFA0C0067C025 /* AvDemoTests.m */; };
 		AFAC769F1CFDFA0C0067C025 /* AvDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAC769E1CFDFA0C0067C025 /* AvDemoUITests.m */; };
+		AFAC76AD1CFDFF500067C025 /* AvDemo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = AFAC76AC1CFDFF500067C025 /* AvDemo.podspec */; };
+		AFAC76B31CFE004F0067C025 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAC76B01CFE004F0067C025 /* AppDelegate.m */; };
+		AFAC76B41CFE004F0067C025 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAC76B21CFE004F0067C025 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +38,6 @@
 /* Begin PBXFileReference section */
 		AFAC76761CFDFA0C0067C025 /* AvDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAC767A1CFDFA0C0067C025 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AFAC767C1CFDFA0C0067C025 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AFAC767D1CFDFA0C0067C025 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AFAC767F1CFDFA0C0067C025 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AFAC76801CFDFA0C0067C025 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AFAC76831CFDFA0C0067C025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFAC76851CFDFA0C0067C025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFAC76881CFDFA0C0067C025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +48,11 @@
 		AFAC769A1CFDFA0C0067C025 /* AvDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAC769E1CFDFA0C0067C025 /* AvDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvDemoUITests.m; sourceTree = "<group>"; };
 		AFAC76A01CFDFA0C0067C025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAC76AC1CFDFF500067C025 /* AvDemo.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AvDemo.podspec; sourceTree = SOURCE_ROOT; };
+		AFAC76AF1CFE004F0067C025 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFAC76B01CFE004F0067C025 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFAC76B11CFE004F0067C025 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFAC76B21CFE004F0067C025 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +103,8 @@
 		AFAC76781CFDFA0C0067C025 /* AvDemo */ = {
 			isa = PBXGroup;
 			children = (
-				AFAC767C1CFDFA0C0067C025 /* AppDelegate.h */,
-				AFAC767D1CFDFA0C0067C025 /* AppDelegate.m */,
-				AFAC767F1CFDFA0C0067C025 /* ViewController.h */,
-				AFAC76801CFDFA0C0067C025 /* ViewController.m */,
+				AFAC76AE1CFE004F0067C025 /* Classes */,
+				AFAC76AC1CFDFF500067C025 /* AvDemo.podspec */,
 				AFAC76821CFDFA0C0067C025 /* Main.storyboard */,
 				AFAC76851CFDFA0C0067C025 /* Assets.xcassets */,
 				AFAC76871CFDFA0C0067C025 /* LaunchScreen.storyboard */,
@@ -138,6 +138,17 @@
 				AFAC76A01CFDFA0C0067C025 /* Info.plist */,
 			);
 			path = AvDemoUITests;
+			sourceTree = "<group>";
+		};
+		AFAC76AE1CFE004F0067C025 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AFAC76AF1CFE004F0067C025 /* AppDelegate.h */,
+				AFAC76B01CFE004F0067C025 /* AppDelegate.m */,
+				AFAC76B11CFE004F0067C025 /* ViewController.h */,
+				AFAC76B21CFE004F0067C025 /* ViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +256,7 @@
 			files = (
 				AFAC76891CFDFA0C0067C025 /* LaunchScreen.storyboard in Resources */,
 				AFAC76861CFDFA0C0067C025 /* Assets.xcassets in Resources */,
+				AFAC76AD1CFDFF500067C025 /* AvDemo.podspec in Resources */,
 				AFAC76841CFDFA0C0067C025 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,8 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFAC76811CFDFA0C0067C025 /* ViewController.m in Sources */,
-				AFAC767E1CFDFA0C0067C025 /* AppDelegate.m in Sources */,
+				AFAC76B41CFE004F0067C025 /* ViewController.m in Sources */,
+				AFAC76B31CFE004F0067C025 /* AppDelegate.m in Sources */,
 				AFAC767B1CFDFA0C0067C025 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +510,7 @@
 				AFAC76A51CFDFA0C0067C025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFAC76A61CFDFA0C0067C025 /* Build configuration list for PBXNativeTarget "AvDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				AFAC76A81CFDFA0C0067C025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFAC76A91CFDFA0C0067C025 /* Build configuration list for PBXNativeTarget "AvDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				AFAC76AB1CFDFA0C0067C025 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
